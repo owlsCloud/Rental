@@ -31,7 +31,7 @@ function Home() {
               <a href="/">Learn More</a>
             </div>
           </div>
-          <img src={car} className="ml-0 width-[65%] mt-20" alt="car z-2" />
+          <img src={car} className="ml-0 width-[65%] " alt="car z-2" />
         </div>
       </div>
     </section>
