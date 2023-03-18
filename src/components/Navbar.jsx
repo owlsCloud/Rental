@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-      <div className="items-center flex h-auto justify-between left-0  mx-auto my-0 p-8 absolute  right-0 top-0 w-full z-10">
+      <div className="font-medium items-center flex h-auto justify-between left-0  mx-auto my-0 p-8 absolute right-0 top-0 w-full z-10">
         <div>img</div>
         <ul className="flex gap-8">
           <li className="hover:text-primary">
