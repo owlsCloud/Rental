@@ -43,6 +43,46 @@ function Home() {
         </div>
       </section>
       <BookCar />
+
+      <section id="plan">
+        <div id="container" className="mx-auto px-10">
+          <div className="flex flex-col items-center">
+            <div id="plan-title" className="">
+              <h3 className="text-2xl font-semibold">Plan Your Trip Now</h3>
+              <h2 className="text-4xl font-bold">Quick & easy car rental</h2>
+            </div>
+            <div
+              id="container-boxes"
+              className="mt-14 grid gap-8 grid-cols-3 m-auto"
+            >
+              <div id="box" className="text-center ">
+                <img src="" alt="" />
+                <h3>Select Car</h3>
+                <p>
+                  We offer a big range of vehicles for all your driving needs.
+                  We have the perfect car to meet your needs
+                </p>
+              </div>
+              <div id="box" className="text-center">
+                <img src="" alt="" />
+                <h3>Contact Operator</h3>
+                <p>
+                  Our knowledgeable and friendly operators are always ready to
+                  help with any questions or concerns
+                </p>
+              </div>
+              <div id="box" className="text-center">
+                <img src="" alt="" />
+                <h3>Let's Drive</h3>
+                <p>
+                  Whether you're hitting the open road, we've got you covered
+                  with our wide range of cars
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
