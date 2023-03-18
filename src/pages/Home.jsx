@@ -28,7 +28,12 @@ function Home() {
               >
                 Book Ride
               </a>
-              <a href="/">Learn More</a>
+              <a
+                href="/"
+                className="font-bold text-white bg-black px-7 py-4 rounded-md hover:bg-white hover:text-black hover:border "
+              >
+                Learn More
+              </a>
             </div>
           </div>
           <img src={car} className="ml-0 width-[65%] " alt="car z-2" />
