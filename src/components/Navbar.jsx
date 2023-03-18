@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <nav>
-      <div className="font-medium items-center flex h-auto justify-between left-0  mx-auto my-0 p-8 absolute right-0 top-0 w-full z-10">
-        <div>img</div>
+    <nav className="">
+      <div className="font-medium items-center flex m-auto p-8 top-0 z-10">
+        <div className="m-auto">img</div>
         <ul className="flex gap-8">
           <li className="hover:text-primary">
             <Link to="/">Home</Link>
@@ -25,7 +25,7 @@ function Navbar() {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-        <div className="flex gap-2.5 text-lg items-center">
+        <div className="flex gap-2.5 text-lg items-center m-auto">
           <a className="hover:text-primary" href="/">
             Sign In
           </a>
