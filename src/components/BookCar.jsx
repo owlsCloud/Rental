@@ -8,12 +8,12 @@ const cars = [
   "Ford Expedition",
 ];
 const locations = ["Mission", "McAllen", "Edinburg"];
-const inputStyles = "py-2 px-4 border-solid border-2 rounded-md w-full";
+const inputStyles = "py-1 px-2 border-solid border-2 rounded-md w-full";
 function BookCar() {
   return (
     <div id="booking-container" className="m-auto w-2/3">
       <div id="book-content" className=" mb-[20rem] ">
-        <div id="book-box" className="rounded-[5px] flex flex-col ">
+        <div id="book-box">
           <h2 className="text-xl font-semibold">Book A Car</h2>
           <form className="grid gap-8 grid-cols-3 grid-rows-2 m-auto">
             <div className="flex flex-col">
@@ -28,7 +28,7 @@ function BookCar() {
               </select>
             </div>
             <div className="flex flex-col ">
-              <label htmlFor="" className="text-xl mb-2 w-">
+              <label htmlFor="" className="text-xl mb-2">
                 <i></i>
                 Pick-Up <b>*</b>
               </label>
@@ -50,14 +50,14 @@ function BookCar() {
               </select>
             </div>
             <div className="flex flex-col ">
-              <label htmlFor="" className="text-xl">
+              <label htmlFor="" className="text-xl mb-2">
                 <i></i>
                 Pickup Date <b>*</b>
               </label>
               <input type="date" value="d" className={inputStyles} />
             </div>
             <div className="flex flex-col ">
-              <label htmlFor="" className="text-xl">
+              <label htmlFor="" className="text-xl mb-2">
                 <i></i>
                 Drop Off Date <b>*</b>
               </label>
@@ -65,7 +65,7 @@ function BookCar() {
             </div>
             <button
               type="submit"
-              className="bg-primary text-white h-min px-20 py-3 m-auto"
+              className=" bg-primary text-white w-full h-full "
             >
               Search
             </button>
