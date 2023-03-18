@@ -6,11 +6,11 @@ function Home() {
       <div id="container" className="my-0 px-10 max-w-[133rem]">
         <div
           id="hero-content"
-          className="items-center flex relative h-screen w-full"
+          className="items-center flex relative h-screen w-full "
         >
           <div
             id="hero-text"
-            className="flex flex-col max-w-[50rem] w-[30rem] z-3"
+            className="flex flex-col mr-0 max-w-[50rem] w-[30rem] z-3"
           >
             <h4 className="font-medium">Plan your trip now</h4>
             <h1 className="text-[2em]">
@@ -31,7 +31,7 @@ function Home() {
               <a href="/">Learn More</a>
             </div>
           </div>
-          <img src={car} className="width-[65%] mt-20" alt="car z-2" />
+          <img src={car} className="ml-0 width-[65%] mt-20" alt="car z-2" />
         </div>
       </div>
     </section>
