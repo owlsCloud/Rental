@@ -1,13 +1,20 @@
 import React, { useState } from "react";
 import car from "../../assets/car.png";
+import car2 from "../../assets/car2.png";
+import car3 from "../../assets/car3.png";
+import car4 from "../../assets/car4.png";
+import car5 from "../../assets/car5.png";
+import car6 from "../../assets/car6.png";
 const buttonStyles = "text-left bg-inactive py-3 px-4 mb-2 text-lg";
 const activeStyle = "text-left text-white bg-primary py-3 px-4 mb-2 text-lg";
 function VehicleFleet() {
-  const [isActive, setIsActive] = useState("");
+  const [isActive, setIsActive] = useState("1");
 
   const handleClick = (e) => {
     setIsActive(e.target.id);
   };
+
+  const cars = [car, car2, car3, car4, car5, car6];
   return (
     <section id="vehicles" className="flex flex-col justify-center">
       <div className="text-center w-1/3 m-auto mt-24">
@@ -64,7 +71,7 @@ function VehicleFleet() {
           </button>
         </div>
         <div id="pic-price" className="">
-          <img src={car} className="w-2/3" alt="" />
+          <img src={cars[isActive - 1]} className="w-2/3 max-w-2/3" alt="" />
 
           <div id="price-table"></div>
         </div>
