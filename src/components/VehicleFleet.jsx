@@ -94,7 +94,7 @@ function VehicleFleet() {
         </p>
       </div>
       <div id="vehicle-select" className="flex ">
-        <div id="vehicles" className="flex flex-col m-auto">
+        <div id="vehicles" className="flex flex-col ml-auto">
           <button
             id="1"
             className={activeID === "1" ? activeStyle : buttonStyles}
@@ -138,42 +138,42 @@ function VehicleFleet() {
             Ford Expedition
           </button>
         </div>
-        <div id="pic-price" className="flex m-auto">
-          <img src={cars[activeID - 1]} className="w-2/3 max-w-2/3 " alt="" />
+        <div id="pic-price" className="flex m-auto justify-between">
+          <img src={cars[activeID - 1]} className="w-2/3 " alt="" />
 
           <div id="price-table">
             <table className="">
-              <tr>
-                <th colSpan="2" className="bg-primary text-white px-8">
+              <tr className="">
+                <th colSpan="2" className="bg-primary text-white px-14 ">
                   {carss[activeID - 1].price} / per day
                 </th>
               </tr>
               <tr>
-                <td className="">Brand</td>
+                <td className="py-2 ">Brand</td>
                 <td>{carss[activeID - 1].brand}</td>
               </tr>
               <tr>
-                <td>Model</td>
+                <td className="py-2">Model</td>
                 <td>{carss[activeID - 1].model}</td>
               </tr>
               <tr>
-                <td>Year</td>
+                <td className="py-2">Year</td>
                 <td>{carss[activeID - 1].year}</td>
               </tr>
               <tr>
-                <td>Doors</td>
+                <td className="py-2">Doors</td>
                 <td>{carss[activeID - 1].doors}</td>
               </tr>
               <tr>
-                <td>AC</td>
+                <td className="py-2">AC</td>
                 <td>{carss[activeID - 1].ac}</td>
               </tr>
               <tr>
-                <td>Transmission</td>
+                <td className="py-2">Transmission</td>
                 <td>{carss[activeID - 1].transmission}</td>
               </tr>
               <tr>
-                <td>Fuel</td>
+                <td className="py-2">Fuel</td>
                 <td>{carss[activeID - 1].fuel}</td>
               </tr>
             </table>
