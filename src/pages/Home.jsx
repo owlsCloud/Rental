@@ -1,7 +1,7 @@
 import React from "react";
 import car from "../assets/car.png";
 import BookCar from "../components/BookCar";
-import VehicleFleet from "./Home Components/VehicleFleet";
+import VehicleFleet from "../components/VehicleFleet";
 function Home() {
   return (
     <>
