@@ -4,6 +4,7 @@
 
 :root {
   font-family: "Poppins", sans-serif;
+  background-color: #f8f8f8;
 }
 * {
   margin: 0;
@@ -11,5 +12,4 @@
   box-sizing: border-box;
   scrollbar-color: #2d897b #fff;
   scrollbar-width: thin;
-  background-color: #f8f8f8;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import car from "../assets/car.png";
+import Banner from "../components/Banner";
 import BookCar from "../components/BookCar";
 import VehicleFleet from "../components/VehicleFleet";
 function Home() {
@@ -85,6 +86,7 @@ function Home() {
         </div>
       </section>
       <VehicleFleet />
+      <Banner />
     </>
   );
 }
